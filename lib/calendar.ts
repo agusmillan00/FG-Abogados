@@ -43,7 +43,7 @@ export async function getAvailability(days = 14, date?: string): Promise<{ id: s
 
   let searchFrom = nowUTC
   if (date) {
-    let parsed = new Date(`${date}T12:00:00`)
+    const parsed = new Date(`${date}T12:00:00`)
     if (!isNaN(parsed.getTime())) {
       if (parsed < nowUTC) {
         parsed.setFullYear(nowUTC.getFullYear())

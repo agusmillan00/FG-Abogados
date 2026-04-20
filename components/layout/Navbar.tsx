@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { Menu, X, Globe } from 'lucide-react'
+import { Menu, X, Globe, ChevronDown } from 'lucide-react'
 import { servicios, noticias } from '@/lib/data'
 
 type Megamenu = 'servicios' | 'actualidad' | null
