@@ -38,5 +38,3 @@ next-env.d.ts
 # claude code local settings
 .claude/
 
-# large media files (subir manualmente a Vercel o CDN)
-public/hero.mp4
